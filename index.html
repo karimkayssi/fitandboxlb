@@ -16,55 +16,67 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 
+    <div style="background-color: #212529; position: fixed; width: 100%; height: 2.6rem; z-index: 9999; border-bottom: 1px solid rgba(200,200,200, 0.2);">
+        <ul class="container d-flex flex-row text-uppercase ms-auto justify-content-end align-items-center" style="list-style-type: none;">
+            <li class="nav-item"><a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/fitandbox.lb/"
+                    aria-label="Instagram" target=”_blank”><i class="fab fa-instagram"></i></a></li>
+
+            <li class="nav-item"><a class="btn btn-dark btn-social mx-2" href="https://wa.me/71259899/"
+                    aria-label="Whatsapp" target=”_blank”><i class="fab fa-whatsapp"></i></a></li>
+
+            <li class="nav-item"><a class="btn btn-dark btn-social mx-2"
+                    href="https://www.facebook.com/ismail.houssaynat" aria-label="Facebook" target=”_blank”><i
+                        class="fab fa-facebook-f"></i></a></li>
+            <li class="nav-item"><a class="btn btn-dark btn-social mx-2"
+                    href="https://www.facebook.com/coach.ismail.houssaynat2" aria-label="Facebook" target=”_blank”><img
+                        width="25" height="25" src="assets/img/logos/page.png"></img></a></li>
+
+            <li class="nav-item"><a class="btn btn-dark btn-social mx-2" href="https://www.tiktok.com/@fitandbox.lb"
+                    aria-label="TikTok" target=”_blank”><i class="fab fa-tiktok"></i></a></li>
+
+            <li class="nav-item" style="color: white">+961 71 25 98 99</li>
+        </ul>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="margin-top: 2.6rem;">
         <div class="container">
             <!-- <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a> -->
-            <a class="navbar-brand" href="#page-top"><img src="assets/img/logos/logo.jpg" style="height:150px" ; width:
-                    400% /></a>
-            <p style="color: white">By Coach <b>Ismail Houssaynat </b><br> Fitness & Martial Arts Instructor</p>
+            <div class="d-flex flex-row align-items-center">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/logos/logo.jpg" style="height:150px" ;
+                        width: 400% /></a>
+                <p style="color: white">By Coach <br> <b style="font-size: 1.25rem;"> Ismail Houssaynat </b> <br>
+                    Fitness & Martial Arts Instructor</p>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ms-1"></i>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#highlights">Highlights</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link"
-                            href="cv.html"
-                            target="_blank">CV</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#highlights">Highlights</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="cv.html" target="_blank" style="color: #0164E2">CV</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
 
-                    <li class="nav-item"><a class="btn btn-dark btn-social mx-2"
-                        href="https://www.instagram.com/fitandbox.lb/" aria-label="Instagram" target=”_blank”><i
-                            class="fab fa-instagram"></i></a></li>
-            
-                    <li class="nav-item"><a class="btn btn-dark btn-social mx-2" href="https://wa.me/71259899/"
-                        aria-label="Whatsapp" target=”_blank”><i class="fab fa-whatsapp"></i></a></li>
-            
-                    <li class="nav-item"><a class="btn btn-dark btn-social mx-2"
-                            href="https://www.facebook.com/ismail.houssaynat" aria-label="Facebook"
-                            target=”_blank”><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="nav-item"><a class="btn btn-dark btn-social mx-2"
-                            href="https://www.facebook.com/coach.ismail.houssaynat2" aria-label="Facebook"
-                            target=”_blank”><img width="25" height="25" src="assets/img/logos/page.png"></img></a></li>
-                            
-                    <li class="nav-item"><a class="btn btn-dark btn-social mx-2"
-                        href="https://www.tiktok.com/@fitandbox.lb" aria-label="TikTok" target=”_blank”><i
-                        class="fab fa-tiktok"></i></a></li>
                 </ul>
             </div>
         </div>
 
     </nav>
+
+    <!-- class="collapse navbar-collapse" id="navbarResponsive" -->
+
     <!-- Masthead-->
     <header class="masthead" p style="background-image: url('assets/img/bg.jpg');">
         <div class="container">
@@ -78,8 +90,9 @@
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Services</h2>
-                <h3 class="section-subheading text-muted">The Disciplines Provided:</h3>
+                <h2 class="section-heading text-uppercase"><u>Services</u></h2>
+                <!-- <h3 class="section-subheading text-muted">The Disciplines Provided:</h3> -->
+                <h5 class="section-subheading text-muted">The Disciplines Provided:</h5> <br />
             </div>
             <div class="row text-center">
                 <div class="col-md-3">
@@ -117,7 +130,7 @@
     </section>
 
     <!--  -->
-    <section class="page-section" id="services">
+    <section class="page-section pt-0" id="services" style="padding: 2rem 0">
         <div class="container">
             <div class="row" style="justify-content: center;">
                 <div class="col-auto">
@@ -146,7 +159,7 @@
     <section class="page-section" id="about">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">About</h2>
+                <h2 class="section-heading text-uppercase"><u>About</u></h2>
                 <h3 class="section-subheading text-muted"></h3>
             </div>
             <ul class="timeline">
@@ -159,7 +172,7 @@
                             <h4 class="subheading">Our Humble Beginnings</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Practicing</p>
+                            <p class="text-muted">Practicing and fighter at Lebanese Taekwondo Federation</p>
                         </div>
                     </div>
                 </li>
@@ -230,12 +243,12 @@
     </section>
 
     <!-- Highlights part 1 -->
-    <section class="page-section" id="highlights">
+    <section class="page-section pt-0" id="highlights">
         <div class="container">
-            <h2 class="section-heading text-uppercase text-center pb-5 mb-5">Highlights</h2>
-            <div class="row" style="justify-content: center;">    
-            <h4 class="section-heading text-uppercase text-center pb-5 mb-5">Resume</h4>
-            <div class="col-6">
+            <h2 class="section-heading text-uppercase text-center mb-5"><u>Highlights</u></h2>
+            <div class="row" style="justify-content: center;">
+                <h3 class="section-heading text-uppercase text-center pb-5 mb-5">Resume</h3>
+                <div class="col-6">
                     <ul>
                         <li>28 years of Practicing, since 1994.</li>
                         <li>18 Years and more than 35000+ hours of Coaching Experience, Certified since 2004.</li>
@@ -265,9 +278,9 @@
 
     <!-- Highlights part 2 -->
 
-    <section class="page-section" id="highlights">
+    <section class="page-section pt-0" id="highlights">
         <div class="container">
-            <h2 class="section-heading text-uppercase text-center pb-5 mb-5">Coaching At</h2>
+            <h3 class="section-heading text-uppercase text-center pb-5 mb-5">Coaching At</h3>
             <div class="row" style="justify-content: center;">
                 <div class="col-auto">
                     <h6 class="section-heading text-uppercase">Schools:</h6>
@@ -307,123 +320,79 @@
         </div>
     </section>
 
-    <!-- Portfolio Grid-->
-    <section class="page-section bg-light" id="portfolio">
+    <!-- Gallery Grid-->
+    <section class="page-section bg-light" id="gallery" style="background-color: #8C8F9E !important">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h2 class="section-heading text-uppercase"><u>Gallery</u></h2>
                 <h3 class="section-subheading text-muted"></h3>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 2-->
-                    <img class="img-fluid" src="assets/img/portfolio/2.jpg" />
+                    <!-- Gallery item 2-->
+                    <img class="img-fluid" src="assets/img/gallery/2.jpg" />
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 4-->
-                    <img class="img-fluid" src="assets/img/portfolio/4.jpg" />
+                    <!-- Gallery item 4-->
+                    <img class="img-fluid" src="assets/img/gallery/4.jpg" />
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 1-->
-                    <img class="img-fluid" src="assets/img/portfolio/1.jpg" style="height: 100%" />
+                    <!-- Gallery item 1-->
+                    <img class="img-fluid" src="assets/img/gallery/1.jpg" style="height: 100%" />
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 3-->
-                    <img class="img-fluid" src="assets/img/portfolio/3.jpg" />
+                    <!-- Gallery item 3-->
+                    <img class="img-fluid" src="assets/img/gallery/3.jpg" />
                 </div>
-                <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0"> -->
-                <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0"> -->
                 <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 5-->
-                    <div class="portfolio-item">
-                        <img class="img-fluid" src="assets/img/portfolio/5.jpg" />
+                    <!-- Gallery item 5-->
+                    <div class="gallery-item">
+                        <img class="img-fluid" src="assets/img/gallery/5.jpg" />
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-sm-6"> -->
                 <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 6-->
-                    <img class="img-fluid" src="assets/img/portfolio/6.jpg" style="height: 100%; object-fit: cover" />
+                    <!-- Gallery item 6-->
+                    <img class="img-fluid" src="assets/img/gallery/6.jpg" style="height: 100%; object-fit: cover" />
                 </div>
             </div>
         </div>
         </div>
     </section>
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contact Us</h2>
-            </div>
-            <div class="row align-items-stretch mb-5 justify-content-center">
-                <div class="col-auto text-center">
-                    <div class="form-group mb-3 d-flex flex-row align-items-center justify-content-center"">
-                        <!-- Instagram -->
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/fitandbox.lb/"
-                            aria-label="Instagram" target=”_blank”><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.instagram.com/fitandbox.lb/" target=”_blank” style="color: white">Instagram</a>
-                    </div>
-                    <div class="form-group mb-3 d-flex flex-row align-items-center justify-content-center">
-                        <!-- Facebook -->
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/ismail.houssaynat"
-                            aria-label="Facebook" target=”_blank”><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.facebook.com/ismail.houssaynat" target=”_blank” style="color: white">Facebook</a>
-                    </div>
-                </div>
-                <div class="col-4"></div>
-                <div class="col-auto">
-                    <div class="form-group form-group-textarea mb-3 d-flex flex-row align-items-center justify-content-center"">
-                        <!-- TikTok -->
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.tiktok.com/@fitandbox.lb"
-                            aria-label="TikTok" target=”_blank”><i class="fab fa-tiktok"></i></a>
-                        <a href="https://www.tiktok.com/@fitandbox.lb" target=”_blank” style="color: white">TikTok</a>
-                    </div>
-                        <!-- FB PAGE -->
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/coach.ismail.houssaynat2" aria-label="Whatsapp"
-                        target="_blank"><img width="25" height="25"
-                            src="assets/img/logos/page.png"></img></a>
-                        <a href="https://www.facebook.com/coach.ismail.houssaynat2" target=”_blank” style="color: white">FB Page</a>
-                    </div>
-                    <div class="form-group form-group-textarea mb-3 d-flex flex-row align-items-center justify-content-center"">
-                </div>
-            </div>
-            <div class="row align-items-stretch mb-5 justify-content-center">
-                
-            </div>
-            <div class="row align-items-stretch mb-5 justify-content-center">
-                <div class="col-auto form-group form-group-textarea mb-3 d-flex flex-row align-items-center justify-content-center"">
-                    <!-- Whatsapp -->
-                    <a class="btn btn-dark btn-social mx-2" href="https://wa.me/71259899/" aria-label="Whatsapp"
-                        target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://wa.me/71259899/" target=”_blank” style="color: white">Whatsapp</a>
-                </div>
-            </div>
-    </section>
-
     <!-- Footer-->
-    <footer class="footer py-4">
+    <footer class="footer py-3" id="footer">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">Copyright &copy; 2022 Karim Kayssi. All rights reserved</div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/fitandbox.lb/"
-                    aria-label="Instagram" target=”_blank”><i class="fab fa-instagram"></i></a>
+                <div class="col-6 text-center">
+                    <div>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/fitandbox.lb/"
+                            aria-label="Instagram" target=”_blank”><i class="fab fa-instagram"></i></a>
 
-                    <a class="btn btn-dark btn-social mx-2" href="https://wa.me/71259899/" aria-label="Whatsapp"
-                        target=”_blank”><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://wa.me/71259899/" aria-label="Whatsapp"
+                            target=”_blank”><i class="fab fa-whatsapp"></i></a>
 
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/ismail.houssaynat"
-                        aria-label="Facebook" target=”_blank”><i class="fab fa-facebook-f"></i></a>
-                    
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/coach.ismail.houssaynat2"
-                        aria-label="Facebook" target=”_blank”><img width="25" height="25"
-                            src="assets/img/logos/page.png"></img></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/ismail.houssaynat"
+                            aria-label="Facebook" target=”_blank”><i class="fab fa-facebook-f"></i></a>
 
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.tiktok.com/@fitandbox.lb"
-                        aria-label="TikTok" target=”_blank”><i class="fab fa-tiktok"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/coach.ismail.houssaynat2"
+                            aria-label="Facebook" target=”_blank”><img width="25" height="25"
+                                src="assets/img/logos/page.png"></img></a>
+
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.tiktok.com/@fitandbox.lb"
+                            aria-label="TikTok" target=”_blank”><i class="fab fa-tiktok"></i></a>
+                    </div>
                 </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a class="link-dark text-decoration-none" href="terms.html" target=”_blank”>Terms & Conditions</a>
+
+                <div class="col-6 text-center">
+                    <a class="link-dark text-decoration-none" href="terms.html" target=”_blank”>Fit And Box Lb Terms &
+                        Conditions</a>
                 </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+
+            <div class="row">
+                <div class="col text-center text-muted">Copyright &copy; 2022 Karim Kayssi. All rights reserved</div>
             </div>
         </div>
     </footer>

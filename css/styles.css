@@ -11406,7 +11406,7 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 19rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
@@ -11433,7 +11433,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
+    padding-top: 19.6rem;
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
@@ -11546,7 +11546,7 @@ header.masthead .masthead-heading {
   width: 2px;
   margin-left: -1.5px;
   content: "";
-  background-color: #e9ecef;
+  background-color: #0164E2;
 }
 .timeline > li {
   position: relative;
@@ -11588,7 +11588,7 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #0164E2;
   border-radius: 100%;
   background-color: #ffc800;
 }
