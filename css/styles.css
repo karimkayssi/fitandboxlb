@@ -641,6 +641,18 @@ progress {
   margin-left: auto;
 }
 
+@media (min-width: 576px) {  
+.justify-custom-center {
+  justify-content: center;
+}
+}
+
+@media (max-width: 576px) { 
+  .justify-sm-start {
+    justify-content: start;
+  } 
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -11336,6 +11348,18 @@ p {
   justify-content: center;
   padding: 0;
   border-radius: 100%;
+}
+
+@media (max-width: 576px) {
+.btn-social {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+}
 }
 
 #mainNav {
